@@ -1,0 +1,25 @@
+playerProfile:
+ # Usernames are not persistent data, therefore we will store these inside the file and have them updated.
+ usernames:
+  current: ''
+  # Previous usernames are stored passively, they are called upon events where we need to view their profile under moderation circumstances.
+  previous:
+  - ''
+  - ''
+  - ''
+  
+ # Email address: we will only ever use this to notify them of an enforcement action against them, in-game events, etc.
+ # They are not required to give us this data.
+ email: ''
+ 
+ # Server groups: we use these to designate players, such that if they are in the staff group they have certain permissions.
+ groups:
+ - 'Member'
+ 
+ # Individual Permissions:
+ perms:
+ - ''
+ 
+ # Individual chat formatting:
+ chatColor: '&7'
+ chatTag: ''
